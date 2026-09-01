@@ -1,0 +1,103 @@
+/* ---------- GLOBAL STYLE ---------- */
+body {
+  font-family: 'Inter', 'Helvetica Neue', Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background: #faf7f3;
+  color: #333;
+}
+
+/* ---------- HEADER ---------- */
+header {
+  background: #ffffff;
+  padding: 40px 20px;
+  text-align: center;
+  border-bottom: 2px solid #e5ded4;
+}
+
+header h1 {
+  font-size: 42px;
+  letter-spacing: 1px;
+  margin-bottom: 10px;
+  color: #3a2f2f;
+}
+
+header p {
+  font-size: 18px;
+  color: #6b5f5f;
+}
+
+/* ---------- NAVIGATION ---------- */
+nav {
+  margin-top: 20px;
+}
+
+nav a {
+  margin: 0 15px;
+  text-decoration: none;
+  font-weight: 600;
+  color: #5a4a42;
+  padding: 8px 14px;
+  border-radius: 6px;
+  transition: 0.2s ease;
+}
+
+nav a:hover {
+  background: #e8dfd4;
+  color: #3a2f2f;
+}
+
+/* ---------- SECTIONS ---------- */
+section {
+  max-width: 900px;
+  margin: 40px auto;
+  padding: 20px;
+  background: #ffffff;
+  border-radius: 12px;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.05);
+}
+
+section h2 {
+  font-size: 28px;
+  margin-bottom: 15px;
+  color: #3a2f2f;
+}
+
+/* ---------- LISTINGS ---------- */
+.listing {
+  display: flex;
+  align-items: center;
+  gap: 25px;
+  margin-bottom: 40px;
+}
+
+.listing img {
+  border-radius: 12px;
+  width: 250px;
+  height: auto;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+}
+
+.listing h2 {
+  margin: 0;
+  font-size: 24px;
+}
+
+.listing p {
+  margin: 6px 0;
+  font-size: 16px;
+}
+
+/* ---------- CONTACT PAGE ---------- */
+.contact-info p {
+  font-size: 18px;
+  margin: 10px 0;
+}
+
+/* ---------- FOOTER ---------- */
+footer {
+  text-align: center;
+  padding: 20px;
+  color: #6b5f5f;
+  font-size: 14px;
+}
